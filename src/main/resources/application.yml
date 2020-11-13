@@ -1,0 +1,28 @@
+server:
+  servlet:
+    context-path: /general
+
+
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/bd_proyecto?useSSL=false
+    username: root
+    password: 123456
+    driverClassName: com.mysql.jdbc.Driver
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+        hbm2ddl.auto: update
+
+  
+  application:
+    name: proyecto-examen
+    
+    
+prue:
+  total-cambio: mock/tipodeCambio.txt
+prue1:
+  total-cambio: /home/user/Escritorio/P_EXAMEN_PRUEBA/PROYECTO/src/main/resources/mock/tipodeCambio.txt  
+      
