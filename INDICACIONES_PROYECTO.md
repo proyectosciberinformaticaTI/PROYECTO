@@ -9,8 +9,8 @@ Plugins que deben estar instalados en su IDE:
 Ejecutar DockerFile - Ambiente Linux
 
 Creación de imagen docker
-* sudo docker build -t bcp:1.0 .
+* sudo docker build -t proyecto:1.0 .
 
 Creación de contenedor con la imagen construida
-* sudo docker run -d -p 9090:8080 --name bcp_container bcp:1.0
+* sudo docker run -d -p 9090:8080 --name bcp_container proyecto:1.0
 ---
