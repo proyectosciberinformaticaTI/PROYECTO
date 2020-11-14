@@ -12,5 +12,5 @@ Creación de imagen docker
 * sudo docker build -t proyecto:1.0 .
 
 Creación de contenedor con la imagen construida
-* sudo docker run -d -p 9090:8080 --name bcp_container proyecto:1.0
+* sudo docker run -d -p 9090:8080 --name proyecto_container proyecto:1.0
 ---
